@@ -10,8 +10,9 @@ msg['From'] = me
 msg['To'] = you
 
 pocetakhtmla = '<html><head></head><body><p>'
-sredinahtmla = 'Hi!<br>How are you?<br>Here is the <a href="http://www.python.org">link</a> you wanted.'
 krajhtmla = '</p></body></html>'
+
+sredinahtmla = 'Hi!<br>How are you?<br>Here is the <a href="http://www.python.org">link</a> you wanted.'
 
 html = pocetakhtmla + sredinahtmla + krajhtmla
 part = MIMEText(html, 'html')
